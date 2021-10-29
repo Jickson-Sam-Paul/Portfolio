@@ -130,29 +130,19 @@ img
     text-align: center; 
 }
 
-.known
-{
-    padding-top: 0rem;
-}
-
 .columns
 {
-    display: inline-block;
-    padding: 0rem 3rem;
+    
     align-items: center;
     text-align: center;
-}
 
-.fcol
-{
-    padding-left: 16%;
 }
-
 
 .tech
 {
     display: inline-block;
     padding: 0.5rem;
+
 }
 
 .tech img
@@ -175,7 +165,6 @@ img
     padding: 2%;
     padding-left: 3%;
     text-align: center;
-    height: 100vh;
 }
 
 h2
@@ -187,16 +176,12 @@ h2
 {
     padding-top: 4%;
     padding-bottom: 2%;
-    grid-gap: 2%;
 }
 
 .first-sec
 {
-    float: left;
     width: 50%;
-    padding: 0.8%;
-    height: 3%;
-    align-items: center;
+    height: auto;
 }
 
 .rrf-icons
@@ -224,7 +209,7 @@ h2
 {
   width: 50%;
   padding: 0.8%;
-  height: 45%;
+  height:auto;
   display: inline-block;
 }
 
@@ -263,8 +248,15 @@ p.click
     color:white;
 }
 
-@media (max-width:629px) {
+@media (max-width:1000px) {
     img#opt {
       display: none;
     }
+}
+@media (max-width:1150px){
+    .dwn-btn
+    {
+        display: none;
+    }
+    
   }
