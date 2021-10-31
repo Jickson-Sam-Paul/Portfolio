@@ -292,6 +292,10 @@ p.click
     border: 0.6vw solid white;
     border-radius: 40%;   
     }
+    .hf
+    {
+        padding-top: 10%;
+    }
     .hf a
     {
         font-size: 3vw;
