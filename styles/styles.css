@@ -180,7 +180,6 @@ h2
 
 .first-sec
 {
-    width: 50%;
     height: auto;
 }
 
@@ -207,7 +206,6 @@ h2
 
 .second-sec
 {
-  width: 50%;
   padding: 0.8%;
   height:auto;
   display: inline-block;
@@ -247,6 +245,10 @@ p.click
     font-size: 20;
     color:white;
 }
+.dp{
+    width: 15%;
+    height: auto;
+}
 
 @media (max-width:1000px) {
     img#opt {
@@ -259,7 +261,7 @@ p.click
         display: none;
     }    
 }
-  @media (max-width:700px) {
+@media (max-width:700px) {
     h3
     {
         font-size: 4.5vw;
@@ -268,4 +270,12 @@ p.click
     {
         font-size: 3vw;
     }    
+    .desc a
+    {
+        font-size: 2.5vw;
+    }
+    .dp{
+        width: 30%;
+        height: auto;
+    }  
 }
