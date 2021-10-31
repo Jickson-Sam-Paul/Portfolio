@@ -131,11 +131,9 @@ img
 }
 
 .columns
-{
-    
+{    
     align-items: center;
     text-align: center;
-
 }
 
 .tech
@@ -229,13 +227,12 @@ p.ft
 {   font-size: 1.2vw; 
     color: white;
     text-align: center;
-    padding-top: 2.7%;
+    padding-top: 1%;
 }
 
 .iconsend
 {
-    padding-top: 0rem;
-    margin-left: 49%;
+    margin-left: 48.5vw;
 }
 
 p.click
@@ -277,5 +274,34 @@ p.click
     .dp{
         width: 30%;
         height: auto;
-    }  
+    } 
+    .header
+    {
+    padding-top: 40%;
+    } 
+    .name
+    {
+    font-size: 7vw;
+    }
+    .intro
+    {
+    font-size: 3vw;
+    }
+    .icons
+    {
+    border: 0.6vw solid white;
+    border-radius: 50%;   
+    }
+    .hf a
+    {
+        font-size: 2.5vw;
+    }
+    p.ft
+    {   
+    font-size: 3vw; 
+    }
+    .iconsend
+    {
+    margin-left: 45vw;
+    }
 }
